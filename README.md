@@ -214,7 +214,7 @@ Reproduce: `python scripts/mutation_check.py` (set `MVN` if `mvn` is not on PATH
 - Gap detection looks at major versions only.
 - The lock has no heartbeat or expiry. The tool is a learning project and has not been run against large or
   production schemas.
-- CI has not been confirmed from this directory (the workflow is included; check the Actions tab).
+- CI: the workflow is included. CI ran green on the first run on GitHub Actions (Java 17 and 21, ubuntu-latest, 2026-10-20).
 
 ## Layout
 
